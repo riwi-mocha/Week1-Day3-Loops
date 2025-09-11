@@ -10,6 +10,7 @@ public class Activity7 {
         int numberInserted = scanner.nextInt();
         if(numberInserted==0){
             System.out.println("No se puede generar la tabla de multiplicar de 0.");
+            scanner.close();
             return;
         }
 
